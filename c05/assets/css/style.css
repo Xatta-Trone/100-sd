@@ -1,0 +1,106 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-bg-1::after{
+    background-image: url(../img/video-bg.jpg);
+}
+
+
+.section-bg-1 {
+    position: relative;
+}
+.section-bg-1::after {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 47%;
+}
+h2.section-title {
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2.section-title span {
+    color: #18b5fd;
+}
+body {
+}
+body {
+    color: #9e9e9e;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.panel-heading {
+}
+.faq .panel-default > .panel-heading {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+}
+.faq.panel-heading {
+    border: 0 none;
+    border-radius: 0;
+}
+.faq .panel.panel-default {
+    margin-bottom: 10px;
+}
+.faq .panel .panel-heading a {
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.faq .panel .panel-heading a .fa {
+    display: none;
+    float: right;
+    font-size: 150%;
+    line-height: 18px;
+}
+.faq .panel .panel-heading a[aria-expanded="true"] i.fa-angle-down {
+    display: block;
+}
+.faq .panel .panel-heading a[aria-expanded="false"] i.fa-angle-up {
+    display: block;
+}
+.section-padding {
+    overflow: hidden;
+    padding: 50px 0;
+}
+.faq {
+    margin-top: 20px;
+    min-height: 370px;
+}
