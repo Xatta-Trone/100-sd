@@ -1,0 +1,84 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-pad {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 30px;
+}
+body {
+    color: #828282;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.owl-carousel .owl-item.single-staff-item img {
+}
+.owl-carousel .owl-item .single-staff-item img {
+    border-radius: 50%;
+    max-width: 160px;
+    width: 160px;
+}
+.staff-meta {
+    color: #b7b7b7;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.staff-meta h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+
+.staff-list .owl-nav div {
+    background: #ddd none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+.staff-list .owl-nav div:hover {
+    background: #22b14c none repeat scroll 0 0;
+    color: #fff;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
