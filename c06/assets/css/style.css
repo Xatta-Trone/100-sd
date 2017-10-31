@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+
+.section-padding {
+    padding: 80px 0;
+}
+body {
+    color: #787978;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-title h2 span {
+    color: #2fa55e;
+}
+.single-pricing-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+.pricing-list ul li{
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+.pricing-list ul li:before{
+    font-family: fontawesome;
+    content: "\f00c";
+    color: #2fa55e;
+    padding-right: 10px;
+}
+.pricing-list ul li.off:before{
+    font-family: fontawesome;
+    content: "\f00d";
+    color: #eb3036;
+}
+.pricing-icon {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.pricing-icon img {
+    max-width: 60px;
+}
+.pricing-list {
+    margin-bottom: 30px;
+    text-align: left;
+}
+.pricing-list ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.bordered-btn {
+    border: 1px solid #2fa55e;
+    border-radius: 20px;
+    color: #333;
+    display: inline-block;
+    padding: 10px 20px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.single-pricing-box:hover {
+    border-color: #2fa55e;
+}
+.bordered-btn:hover{
+    background: #2fa55e;
+    color: #fff;
+}
+
+.pricing-icon:hover {
+    color: #2fa55e;
+}
