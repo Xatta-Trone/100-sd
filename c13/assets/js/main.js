@@ -10,6 +10,11 @@
         $('[data-toggle="tooltip"]').tooltip();
 
 
+        $(".product-list").masonry();
+
+
+
+
 
         
 
