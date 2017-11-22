@@ -1,0 +1,134 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    background: #14adf3;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.section-padding a {
+    color: #fff;
+}
+
+.footer-wid h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.footer-wid ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+p.contact-info {
+    position: relative;
+    padding-left: 30px;
+}
+
+p.contact-info i.fa {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 20px;
+}
+
+.footer-subs-form h4 {
+    text-transform: uppercase;
+}
+
+.footer-subs-form {
+    margin-top: 30px;
+}
+
+.footer-subs-form input[type=email], .footer-subs-form input[type=submit],.footer-subs-form button[type=submit] {
+    border: none;
+    color: #000;
+    padding: 10px;
+}
+
+.footer-subs-form input[type=email] {
+    width: 73%;
+}
+
+.footer-subs-form input[type=submit] {
+    color: #14ADF3;
+    background: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+.footer-subs-form form {
+    margin-bottom: 10px;
+}
+
+.footer-subs-form p {
+    font-size: 90%;
+}
+
+.copyright-area,.copyright-area a {
+    color: #b5b5b5;
+}
+
+.copyright-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.copyright-area li {
+    display: inline-block;
+}
+
+.copyright-area li:after {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.copyright-area li:last-child:after {
+    display: none;
+}
+
+.copyright-area {
+    padding: 20px 0;
+}
