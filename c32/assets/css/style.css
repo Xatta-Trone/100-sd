@@ -1,0 +1,103 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.promo-bg{background-image: url(http://placehold.it/280x250);}
+
+.section-paddingq {
+    padding: 80px 0;
+}
+
+a.single-promo-box {
+    display: block;
+    position: relative;
+    background-size: cover;
+    height: 280px;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.promo-content {
+    font-size: 20px;
+    text-align: center;
+}
+
+.promo-content h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Changa One', cursive;
+}
+
+.promo-content h2 {
+    margin-bottom: 10px;
+}
+
+.promo-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+a.single-promo-box:hover {
+    transform: scale(1.05);
+    color:#fff;
+    box-shadow: 0 0 5px #999;
+}
+
+a.single-promo-box {
+    transition: 0.3s;
+}
+
+a.scrollToTop {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    transition: 0.3s;
+    display: none;
+}
+
+a.scrollToTop:hover {
+    color: #333;
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+}
