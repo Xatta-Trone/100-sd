@@ -1,0 +1,223 @@
+/* Base CSS */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.welcome-hero-area{background-image: url(../img/pexels-photo-76093.jpeg);}
+.hero-area-logo h3{font-family: 'Mr De Haviland', cursive;}
+
+.welcome-hero-area {
+    position:  relative;
+    height:  100%;
+    z-index:  1;
+}
+
+.header-area {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    z-index:  999;
+}
+
+.logo a {
+    color:  #fff;
+}
+
+.logo h1 {
+    position:  relative;
+    display:  inline-block;
+    font-weight:  400;
+    letter-spacing:  2px;
+}
+
+.logo h1:after {
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    width:  100%;
+    height:  3px;
+    content:  '';
+    background:  #fff;
+}
+
+.mainmaneu ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.mainmaneu li {
+    display: inline-block;
+    padding-left:  20px;
+    color:  #fff;
+}
+
+.mainmaneu a {
+    color:  #fff;
+    font-size:  18px;
+    /* padding-bottom: 10px; */
+}
+
+.mainmaneu a:hover {
+    text-decoration:  underline;
+}
+
+.mainmaneu {
+    padding: 13px 0;
+}
+
+.header-area {
+    padding:  20px 0;
+}
+
+.welcome-hero-area:after {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    content:  '';
+    background:  #333;
+    z-index:  -1;
+    opacity: 0.5;
+}
+
+.hero-area-table {
+    height:  100%;
+    display:  table;
+    width:  100%;
+}
+
+.heroarea-tcell {
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+a.scroll-to-nxet {
+    position:  absolute;
+    left:  50%;
+    bottom:  20px;
+    color:  #fff;
+    border:  1px solid #fff;
+    padding:  10px 15px;
+    height:  40px;
+    width: 50px;
+    font-size: 17px;
+    text-align:  center;
+    margin-left: -25px;
+    opacity:  0.5;
+}
+
+.hero-area-logo h3 {
+    font-size: 100px;
+    color:  gold;
+    line-height: 60px;
+    margin:  0;
+}
+
+.hero-area-logo h2 {
+    color:  #fff;
+    font-size:  50px;
+    text-transform:  uppercase;
+    letter-spacing: 5px;
+}
+
+.brder-area {
+    width:  45%;
+}
+
+.brder-area div {
+    height:  3px;
+    width:  50%;
+    background:  #fff;
+    float:  left;
+}
+
+.brder-area i.fa {
+    float:  left;
+    font-size:  20px;
+}
+
+i.fa.fa-heart-o {}
+
+.brder-area i.fa {
+    color:  #fff;
+    margin: 0 5px;
+}
+
+.brder-area div {
+    width: 45%;
+}
+
+.brder-area {
+    overflow:  hidden;
+    margin:  0 auto;
+}
+
+.brder-area div {
+    margin-top: 7px;
+    position:  relative;
+}
+
+.hero-area-logo p {
+    text-transform:  uppercase;
+    color:  #fff;
+    margin-top:  15px;
+}
+
+.right-boder:after {
+    position:  absolute;
+    right:  0;
+    top: -3px;
+    /* border:  5px solid #fff; */
+    content:  '';
+    border-right: 6px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.left-brder:before {
+    position:  absolute;
+    left:  0;
+    top: -3px;
+    /* border:  5px solid #fff; */
+    content:  '';
+    border-left: 6px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-righ: 5px solid transparent;
+}
