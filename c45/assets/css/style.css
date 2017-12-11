@@ -1,0 +1,130 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding:  80px 0;
+}
+
+.single-pricing-box {
+    border:  1px solid #ddd;
+    border-radius:  4px;
+    margin-bottom: 40px;
+    padding:  30px;
+    text-align:  center;
+    transition:  0.3s;
+}
+
+body {
+    font-size:  16px;
+    line-height:  1.8;
+    color:  #333;
+}
+
+a {
+    color:  #3498DB;
+}
+
+p.pricing-amount {
+    font-size: 40px;
+    font-weight:  300;
+    color:  #3498DB;
+    line-height: 34px;
+    margin-bottom: 0;
+    opacity:  1;
+}
+
+.pricing-box-price {
+    /* opacity:  0.5; */
+}
+
+.pricing-box-content {
+    margin-top:  30px;
+    border-top:  1px solid #ddd;
+    padding-top:  30px;
+}
+
+.pricing-box-content
+ ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.pricing-box-content li {
+    padding-bottom:  10px;
+    line-height: 1.4;
+}
+
+a.box-btn {
+    background: #3498db;
+    color:  #fff;
+    padding:  10px 20px;
+    display:  inline-block;
+    font-weight:  700;
+    margin-top:  30px;
+}
+
+.single-pricing-box h4 {
+    margin-bottom:  40px;
+    font-size:  20px;
+}
+
+.single-pricing-box h4 span {
+    display:  block;
+    color: green;
+    font-size:  80%;
+    font-weight:  400;
+    margin-top:  10px;
+}
+
+.single-pricing-box.active h4 {
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.single-pricing-box.active,
+ .single-pricing-box:hover {
+    position:  relative;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+    box-shadow:  0 0 40px #ddd;
+}
+
+.single-pricing-box.active:before {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  3px;
+    background:  green;
+    content:  '';
+}
