@@ -1,0 +1,164 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.pricing-table {
+    overflow:  hidden;
+    padding-bottom:  30px;
+    padding-left:  20px;
+    padding-right:  20px;
+    padding-top:  30px;
+}
+
+.single-pricing-box {
+    width: 33.3333333333%;
+    float:  left;
+    box-shadow:  0 0 10px #ddd;
+    /* padding:  10px; */
+    position:  relative;
+    z-index:  1;
+    background:  #fff;
+}
+
+body {
+    color:  #999;
+    font-size:  17px;
+    line-height:  1.7;
+}
+
+.prcing-heading {
+    background:  #ddd;
+}
+
+.prcing-heading h4 {
+    color: #888;
+    font-size:  30px;
+    font-weight: 400;
+}
+
+.prcing-heading h1 {
+    color:  #333;
+    font-weight:  400;
+}
+
+.prcing-heading {
+    padding: 40px;
+    /* margin-top: 30px; */
+}
+
+.pricing-content {
+    padding:  40px;
+}
+
+.pricing-content ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.pricing-content li {
+    line-height: 1.9;
+}
+
+a.pricing-btn {
+    display:  inline-block;
+    border:  1px solid red;
+    color:  red;
+    font-weight: 600;
+    padding:  15px 25px;
+    border-radius:  50px;
+    margin-top:  30px;
+}
+
+.active .pricing-heading {
+    background: red;
+}
+
+.single-pricing-box.active .prcing-heading {
+    background: red;
+    color:  #fff;
+    margin-top: 0;
+}
+
+.single-pricing-box.active .prcing-heading h1, .single-pricing-box.active .prcing-heading h4 {
+    color: #fff;
+}
+
+.section-padding {
+    padding:  100px 0;
+}
+
+.single-pricing-box.active {
+    position:  relative;
+    z-index:  2;
+    margin-left:  -0.5%;
+    margin-right:  -0.5%;
+    width:  34.3333%;
+}
+
+.active .pricing-content {
+    padding: 65px 60px;
+}
+
+.active a.pricing-btn {
+    background:  red;
+    color:  #fff;
+}
+
+.active .prcing-heading:after {
+    content:  'Featured';
+    position:  absolute;
+    right: -38px;
+    top: 20px;
+    color:  red;
+    background:  #fff;
+    transform: rotate(45deg);
+    padding: 5px 50px;
+    font-size:  15px;
+}
+
+.active .prcing-heading {
+    /* position:  relative; */
+    /* z-index:  3; */
+}
+
+
+.single-pricing-box.active {
+    overflow:  hidden;
+}
+
+.single-pricing-box {
+    margin-top: 30px;
+}
+
+.single-pricing-box.active {
+    margin-top:  0;
+}
