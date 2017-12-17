@@ -1,0 +1,138 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.listing-bg{background-image: url(http://placehold.it/100x100);}
+
+
+
+.section-padding {
+    padding:  100px 0;
+    overflow-x: hidden;
+}
+
+.section-ttitle {
+    text-align:  center;
+    margin-bottom:  50px;
+}
+
+.listing-box.listing-bg {
+    height:  250px;
+    border-radius:  5px;
+    position: relative;
+    background-size:  cover;
+    background-position:  center;
+    background-color: #ddd;
+    z-index:  1;
+}
+
+.listing-hover {
+    position:  absolute;
+    left:  10%;
+    width:  80%;
+    bottom: 20px;
+}
+
+a.border-btn {
+    color:  #fff;
+    border:  1px solid #000;
+    padding:  10px 25px;
+    border-radius:  50px;
+    display:  inline-block;
+}
+
+.listing-box:after {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    content:  '';
+    background: red;
+    opacity: 0.1;
+    z-index:  -1;
+}
+
+
+.owl-dot {
+    height:  15px;
+    width:  15px;
+    background:  #333;
+    display:  inline-block;
+    margin:  5px;
+    border-radius:  50%;
+}
+
+.owl-dots {
+    text-align:  center;
+    margin-top:  50px;
+}
+
+.owl-dot.active {
+    background:  #ddd;
+}
+
+.listing-carousel .owl-stage-outer {
+    overflow:  inherit;
+}
+
+.owl-stage-outer {
+    overflow:  inherit;
+}
+
+.listing-carousel {
+    position:  relative;
+}
+
+.listing-carousel:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    left: -500%;
+    height:  100%;
+    width: 500%;
+    content:  '';
+    background: #000;
+    z-index:  1;
+    opacity: 0.5;
+}
+
+.listing-carousel:after {
+    position:  absolute;
+    top:  0;
+    right: -500%;
+    height:  100%;
+    width: 500%;
+    content:  '';
+    background: #000;
+    z-index:  1;
+    opacity: 0.5;
+}
