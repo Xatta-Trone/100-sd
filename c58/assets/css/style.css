@@ -1,0 +1,169 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-paddin {
+    padding:  100px 0;
+}
+
+.section-title {
+    margin-bottom:  50px;
+    text-align:  center;
+    text-transform:  uppercase;
+}
+
+.section-title h2 {
+    font-weight:  400;
+}
+
+
+.testimial-top img {
+    max-width: 120px;
+    display: inline-block;
+    margin-top:  -40px;
+    /* padding-right: 20px; */
+}
+
+.testimial-top h3 {
+    display:  inline-block;
+    text-align:  left;
+    font-size:  20px;
+    text-transform:  uppercase;
+    font-weight:  400;
+    padding-left:  20px;
+    color:  #333;
+}
+
+.single-testimial-item {
+    text-align:  center;
+    color:  #888;
+    font-size: 16px;
+    line-height: 1.8;
+    box-shadow:  0 0 10px #ddd;
+    padding: 50px;
+}
+
+.testimial-top h3 span {
+    text-transform:  none;
+    opacity:  0.5;
+    font-size:  80%;
+    display: inline-block;
+    padding-top:  10px;
+}
+
+.testimial-top {
+    padding-bottom: 40px;
+    padding-top: 35px;
+}
+
+ul.author-names img {
+    max-width: 50px;
+    height: 50px;
+    border-radius:  50%;
+    margin-top: -25px;
+}
+
+ul.author-names h3 {
+    display:  inline-block;
+    font-weight:  400;
+    text-transform:  uppercase;
+    font-size:  15px;
+    padding-left:  10px;
+    max-width: 205px;
+}
+
+ul.author-names {
+    margin:  0;
+    padding:  0;
+    height:  200px;
+    list-style:  none;
+    overflow-y: scroll;
+}
+
+ul.author-names h3
+ span {
+    opacity:  0.5;
+    text-transform: none;
+    font-size:  80%;
+    display:  inline-block;
+    padding-top:  10px;
+}
+
+ul.author-names a {
+    color:  #333;
+}
+ul.author-names li.active{
+    opacity: 1;
+}
+ul.author-names li {
+    padding-top: 13px;
+    margin-bottom: 2px;
+    opacity: 0.5;
+}
+
+.testimonial-relative {
+    position:  relative;
+}
+
+h2.testimonial-right-title {
+    /* position:  absolute; */
+    left:  0;
+    top: 0;
+    text-transform:  uppercase;
+    color:  #eee;
+    font-size:  40px;
+    /* display: -webkit-box; */
+    position: absolute;
+    z-index:  1;
+    transform: rotate(270deg);
+    left: -20px;
+    bottom: -13px;
+    width: 270px;
+}
+
+h2.testimonial-right-title:after {
+    position:  absolute;
+    left: 45px;
+    top: 22px;
+    height:  5px;
+    width: 100%;
+    background:  #eee;
+    content:  '';
+    transform: translateY(-50%);
+}
+
+h2.testimonial-right-title span {
+    display:  inline-block;
+    background:  #fff;
+    position:  relative;
+    z-index:  2;
+    padding-right:  20px;
+}
