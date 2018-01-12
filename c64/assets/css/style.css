@@ -1,0 +1,74 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-title {
+    text-align:  center;
+}
+
+h1,h2,h3 {
+    color:  #6F539D;
+    font-weight:  400;
+}
+
+body {
+    color:  #676767;
+    /* font-size:  15px; */
+    line-height: 22px;
+}
+
+.feature-wrap {
+    position:  relative;
+    z-index:  1;
+}
+
+img.hand-abs {
+    position:  absolute;
+    right:  -100px;
+    bottom:  0;
+}
+
+h3 {
+    font-size:  22px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    margin-bottom: 120px;
+}
+
+.feature-wrap {
+    padding-bottom:  100px;
+}
+
+.section-padding.features-area {
+    padding-top: 120px;
+}
