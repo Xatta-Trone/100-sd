@@ -1,0 +1,154 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.right-side{background-image: url(../img/slider-2.jpg);}
+
+.left-side {
+    background-color:  #010101;
+    width:  20%;
+    position:  fixed;
+    height:  100%;
+}
+
+.right-side {
+    width:  80%;
+    margin-left:  20%;
+    height:  100%;
+    display:  table;
+    background-size:  cover;
+    position:  relative;
+    z-index:  1;
+}
+
+html,body {
+    height:  100%;
+}
+
+.right-tablecell {
+    display: table-cell;
+    vertical-align:  middle;
+    padding:  10%;
+}
+
+.right-side:after {
+    left:  0;
+    top: 0;
+    width: 100%;
+    height:  100%;
+    content:  '';
+    background:  #000;
+    position:  absolute;
+    z-index:  -1;
+    opacity:  0.2;
+}
+
+.right-side {
+    color:  #fff;
+    font-size:  20px;
+}
+
+.right-side h1 {
+    font-size: 60px;
+}
+
+.right-side span {
+    color:  orange;
+}
+
+a.boxed-btn {
+    background-color:  #eee;
+    font-size:  15px;
+    padding: 10px 20px;
+    color:  #000;
+    display:  inline-block;
+    margin-top: 100px;
+    border-radius:  50px;
+}
+
+.logo {
+    text-align:  center;
+    color:  #fff;
+    position:  relative;
+    z-index:  1;
+    margin: 70px 0;
+}
+
+.logo:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    content:  '';
+    z-index:  -1;
+    border-radius:  50%;
+    left:  50%;
+    margin-left:  -75px;
+    top:  50%;
+    margin-top:  -75px;
+    opacity:  0.3;
+}
+
+.social-links {
+    position:  absolute;
+    bottom: 40px;
+    color:  #fff;
+}
+
+.social-links a {
+    color:  #fff;
+    padding:  10px;
+}
+
+ul.mainmenu {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+    color:  #fff;
+    position:  absolute;
+    left:  50%;
+    transform:  translateX(-50%);
+}
+
+ul.mainmenu li a {
+    color:  #fff;
+    font-size:  25px;
+    padding: 10px;
+    display:  inline-block;
+}
+
+p.copy-txt {
+    color:  #fff;
+    position:  absolute;
+    bottom:  2px;
+}
