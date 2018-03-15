@@ -1,0 +1,102 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.conact-wrapper-bg{background-image: url(../img/slider-2.jpg);}
+
+.section-paading {
+    padding: 80px 0;
+}
+
+.contact-wrapper {
+    position: relative;
+}
+
+.conact-wrapper-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    content: '';
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.contact-wrapper .row {
+    z-index: 2;
+    position: relative;
+}
+
+.conact-wrapper-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #3498db;
+    opacity: 0.85;
+    z-index: -1;
+}
+
+.contact-wrapper {
+    padding: 80px;
+    color: #fff;
+}
+
+.boxed-form {
+    background: #fff;
+    margin-left: 100px;
+    color: #333;
+    padding: 50px;
+    box-shadow: 0 0 10px #e5e5e5;
+}
+
+.boxed-form input, .boxed-form textarea {
+    padding: 13px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.boxed-form textarea {
+    min-height: 110px;
+}
+
+.boxed-form input[type=submit] {
+    background: #2ecc71;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
