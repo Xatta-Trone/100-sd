@@ -1,0 +1,111 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 80px 0;}
+
+.feature-1 .feature-bg{background-image: url(../img/contact-bg.jpg);}
+.feature-2 .feature-bg{background-image: url(../img/programe-1.jpg);}
+.feature-3 .feature-bg{background-image: url(../img/programe-2.jpg);}
+.feature-4 .feature-bg{background-image: url(../img/slider-2.jpg);}
+
+
+.single-feature-item {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-bg {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    content: '';
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    bottom: -70px;
+}
+
+.single-feature-item-txt {
+    background: #fff;
+    box-shadow: 0 0 10px #eee;
+    padding: 49px;
+    position: relative;
+    padding-left: 105px;
+    border-bottom: 3px solid #e74c3c;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.single-feature-item-txt h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+
+.feature-no {
+    position: absolute;
+    left: 25px;
+    top: 6px;
+    font-size: 50px;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.feature-no:after {
+    content: '';
+    position: absolute;
+    right: -38px;
+    top: 61px;
+    height: 2px;
+    width: 97px;
+    background: #999;
+    transform: rotate(-45deg);
+}
+
+.single-feature-item-txt:nth-child(2) {
+}
+
+.feature-2 .single-feature-item-txt {
+    border-color: #2ecc71;
+}
+
+.feature-3 .single-feature-item-txt {
+    border-color: #e67e22;
+}
+
+.feature-4 .single-feature-item-txt {
+    border-color: #34495e;
+}
