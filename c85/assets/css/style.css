@@ -1,0 +1,107 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 80px 0;}
+
+.author-bg-1{background-image: url(../img/contact-bg.jpg);}
+
+.testimonial-wrapper {
+    position: relative;
+}
+
+h2.testimonial-title {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    font-size: 86px;
+    z-index: 2;
+}
+
+h2.testimonial-title span {
+    color: #fff;
+}
+
+.single-testimonial-item {
+    font-size: 16px;
+    line-height: 2;
+    padding-top: 200px;
+    max-width: 40%;
+}
+
+.testimonial-author {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonial-author i.fa {
+    color: #e67e22;
+    font-size: 25px;
+}
+
+.testimonial-author h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.author-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center top;
+    /* z-index: 2; */
+}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.owl-nav div {
+    width: 55px;
+    display: inline-block;
+    height: 45px;
+    background: #ddd;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.owl-nav .owl-next {
+    background: #e67e22;
+    color: #fff;
+}
